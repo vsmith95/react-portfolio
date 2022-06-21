@@ -1,9 +1,7 @@
 import React from "react";
 
-function Resume() {
-    return (
-        
-    );
+const Resume = () => {
+
     };
 
     export default Resume;

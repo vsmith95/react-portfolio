@@ -1,9 +1,7 @@
 import React from "react";
 
-function Project() {
-    return (
-        
-    );
+const Project = () => {
+
     };
 
     export default Project;

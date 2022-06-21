@@ -1,9 +1,7 @@
 import React from "react";
 
-function Portfolio() {
-    return (
-       
-    );
+const Portfolio = () => {
+
     };
 
     export default Portfolio;
