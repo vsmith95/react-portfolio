@@ -1,0 +1,16 @@
+:root {
+    --primary: #6b5ca5;
+    --secondary: #f75c03;
+    --teriary: #291720;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
