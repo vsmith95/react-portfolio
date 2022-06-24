@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utility/emailValidate";
+import "../../assets/css/style.css"
 
 const Contact = () => {
     const [formState, setFormState] = useState({
@@ -93,4 +94,5 @@ const Contact = () => {
     </section>
     );
 };
-    export default Contact;
+
+export default Contact;

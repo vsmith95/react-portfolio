@@ -1,4 +1,5 @@
 import React from "react";
+import "../../assets/css/style.css"
 
 const Footer = (props) => {
     const {
@@ -9,8 +10,10 @@ const Footer = (props) => {
 
       return (
         <footer className="flex-row">
+          <div className="contact-info">
             <a href="">GitHub</a>
             <a href="">Linkedin</a>
+          </div>  
         </footer>
       );
     };

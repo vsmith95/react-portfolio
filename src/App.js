@@ -5,7 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-import "./App.css"
+import "./assets/css/style.css"
 
 function App() {
     const [pages] = useState([
@@ -34,7 +34,7 @@ function App() {
     const [currentPage, setCurrentPage] = useState(pages[0]);
 
     return (
-        <div className="App">
+        <body className="App">
             <Header
             pages={pages}
             setCurrentPage={setCurrentPage}
@@ -44,7 +44,7 @@ function App() {
                 {currentPage.component}
             </main>
             <Footer />
-        </div>
+        </body>
     );
   
 };

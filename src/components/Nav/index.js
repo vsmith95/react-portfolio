@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import "../../assets/css/style.css"
 
 const Nav = (props) => {
     const {
