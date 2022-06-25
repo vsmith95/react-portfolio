@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import Header from "./components/Header";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+// import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero"
+import Project from "./components/Project";
 import "./assets/css/style.css"
 
 function App() {
@@ -15,19 +17,14 @@ function App() {
             component: <About />
         },
         {
-            name: "contact",
-            display: "Contact",
-            component: <Contact />
-        },
-        {
             name: "resume",
             display: "Resume",
             component: <Resume />
         },
         {
-            name: "portfolio",
+            name: "project",
             display: "Portfolio",
-            component: <Portfolio />
+            component: <Project />
         }
     ]);
 
@@ -40,6 +37,7 @@ function App() {
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}
             />
+            <Hero />
             <main>
                 {currentPage.component}
             </main>
