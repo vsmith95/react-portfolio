@@ -12,7 +12,7 @@ const Header = (props) => {
       return (
         <header className="flex-row">
             <h1>
-                <a href="/">Vaughn Smith</a>
+                Vaughn Smith
             </h1>
               <Nav
                   pages = {pages}
