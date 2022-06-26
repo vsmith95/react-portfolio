@@ -133,6 +133,11 @@ section{
     padding: 10px;
 }
 
+.titleContainer p {
+    text-align: center;
+    font-size: 20px;
+}
+
 .section-title {
     width: 300px;
     font-size: 40px;
