@@ -23,6 +23,15 @@ const Project = () => {
         description:
           "Foodio is a simple to use app for finding new local resturaunts to try out.",
       },
+      {
+        name: "Basement Dwellers",
+        category: "React/Nodejs/Express/Axios",
+        github: "https://github.com/vsmith95/gamergang",
+        deploy:
+          "https://basementdwellers.herokuapp.com",
+        description:
+          "Placeholder",
+      },
     ]);
 
     return(
