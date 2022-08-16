@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/css/style.css"
-import ItMe from "../../assets/images/bio-pic.jpg"
+import ItMe from "../../assets/images/bio-pic.png"
 
 const About = () => {
     return (
@@ -37,7 +37,11 @@ const About = () => {
             </div>
                 <div className="">
                     <p className="bioPara">
-                        Hello there! My name is Vaughn Smith! I am currently a student at Coding Bootcamp through UCONN and will be graduating very soon. Presently live in Windham, Connecticut with my beautiful girlfriend and am looking to grow my skills and abilities in web development.
+                    Full-Stack Web Developer looking to utilize my many years of experience in customer service to build positive user experiences online. 
+                    A recent graduate of the University of Connecticut (UCONN)’s Coding Bootcamp, 
+                    receiving certification and education in the web’s current and cutting-edge technologies.
+                    I am experienced in working in fast-paced, team-focused environments as well as working independently to find eloquent on-the-fly solutions to potential problems.
+                    With every project I work on, I focus on improving my skills and engaging my audience with a fun and professional user experience on the platform.
                     </p>
                 </div>
         </section>

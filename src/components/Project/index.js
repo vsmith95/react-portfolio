@@ -24,7 +24,7 @@ const Project = () => {
           "Foodio is a simple to use app for finding new local resturaunts to try out.",
       },
       {
-        name: "Basement Dwellers",
+        name: "BasementDwellers",
         category: "React/Nodejs/Express/Axios",
         github: "https://github.com/vsmith95/gamergang",
         deploy:
@@ -36,19 +36,14 @@ const Project = () => {
 
     return(
         <section className="my-work">
-            <div className="titleContainer">                
-                <h2 className="section-title">
-                    Projects
-                </h2>
-            </div>
-            <div className="cards">
-                {projects.map((project) => (
-                    <ProjectProp 
-                    project={project}
-                    key={project.name}
-                    />
-                ))}
-            </div>
+              <div className="cards">
+                  {projects.map((project) => (
+                      <ProjectProp 
+                      project={project}
+                      key={project.name}
+                      />
+                  ))}
+              </div>
         </section>
     )
 

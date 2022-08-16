@@ -10,16 +10,16 @@ const Header = (props) => {
       } = props;
 
       return (
-        <header className="flex-row">
-            <h1>
-                Vaughn Smith
-            </h1>
-              <Nav
-                  pages = {pages}
-                  setCurrentPage={setCurrentPage}
-                  currentPage={currentPage}
-                  />   
-        </header>
+          <header className="flex-row">
+              <h1>
+                  Vaughn Smith
+              </h1>
+                <Nav
+                    pages = {pages}
+                    setCurrentPage={setCurrentPage}
+                    currentPage={currentPage}
+                    />   
+          </header>
       )
     };
 

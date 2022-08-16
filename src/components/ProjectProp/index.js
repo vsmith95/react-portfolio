@@ -14,6 +14,8 @@ const ProjectProp = (props) => {
                 </div>
                 <p>
                     <a className="card-title-box" href={project.deploy} target="_blank">Deployed Site</a>
+                </p>    
+                <p>
                     <a className="card-title-box" href={project.github} target="_blank">View on GitHub</a>
                 </p>
             </div>
