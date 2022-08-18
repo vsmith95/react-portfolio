@@ -13,10 +13,10 @@ const ProjectProp = (props) => {
                     </h3>
                 </div>
                 <p>
-                    <a className="card-title-box" href={project.deploy} target="_blank">Deployed Site</a>
+                    <a className="card-title-box" href={project.deploy} target="_blank" rel="noreferrer">Deployed Site</a>
                 </p>    
                 <p>
-                    <a className="card-title-box" href={project.github} target="_blank">View on GitHub</a>
+                    <a className="card-title-box" href={project.github} target="_blank" rel="noreferrer">View on GitHub</a>
                 </p>
             </div>
         </div>
