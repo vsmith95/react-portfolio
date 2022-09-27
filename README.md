@@ -4,7 +4,7 @@
 
   ### This is the source code for my personal portfolio.
 
-  ###https://vsmith95.github.io/react-portfolio/
+  ### https://vsmith95.github.io/react-portfolio/
 
   ## Table of Contents:
   ###  * [Installation](#installation)
